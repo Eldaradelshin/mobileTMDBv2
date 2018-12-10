@@ -18,11 +18,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="movieCell" rowHeight="75" id="NZD-J1-3qN" customClass="MovieCell" customModule="mobileTMDB_version_2_0_" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="75"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="movieCell" rowHeight="320" id="NZD-J1-3qN" customClass="MovieCell" customModule="mobileTMDB_version_2_0_" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="320"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NZD-J1-3qN" id="npX-8N-HPf">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="74.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="319.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzS-tU-L7M">
@@ -32,24 +32,36 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Genres" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dKW-OU-APA">
-                                            <rect key="frame" x="16" y="38.5" width="343" height="22.5"/>
+                                            <rect key="frame" x="16" y="38.5" width="343" height="38"/>
                                             <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
                                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SyD-yF-pI5">
+                                            <rect key="frame" x="67" y="84" width="241" height="225"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="241" id="22u-1b-PrI"/>
+                                                <constraint firstAttribute="height" constant="225" id="oT4-lX-crm"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="bottom" secondItem="dKW-OU-APA" secondAttribute="bottom" constant="13.5" id="0hj-xm-9QF"/>
                                         <constraint firstItem="dKW-OU-APA" firstAttribute="top" secondItem="zzS-tU-L7M" secondAttribute="bottom" constant="8" id="8dt-Vg-9Ns"/>
                                         <constraint firstItem="zzS-tU-L7M" firstAttribute="top" secondItem="npX-8N-HPf" secondAttribute="top" constant="11" id="F9A-zx-87L"/>
+                                        <constraint firstItem="SyD-yF-pI5" firstAttribute="top" secondItem="dKW-OU-APA" secondAttribute="bottom" constant="7.5" id="J2g-gM-2tg"/>
                                         <constraint firstItem="zzS-tU-L7M" firstAttribute="leading" secondItem="npX-8N-HPf" secondAttribute="leading" constant="16" id="MCk-oX-IMT"/>
                                         <constraint firstAttribute="trailing" secondItem="dKW-OU-APA" secondAttribute="trailing" constant="16" id="Zje-uA-WcJ"/>
+                                        <constraint firstAttribute="bottom" secondItem="SyD-yF-pI5" secondAttribute="bottom" constant="10.5" id="n8r-mM-wrR"/>
+                                        <constraint firstItem="SyD-yF-pI5" firstAttribute="centerX" secondItem="npX-8N-HPf" secondAttribute="centerX" id="rbE-IE-rjM"/>
                                         <constraint firstItem="dKW-OU-APA" firstAttribute="leading" secondItem="npX-8N-HPf" secondAttribute="leading" constant="16" id="sOh-Ov-X6d"/>
                                         <constraint firstAttribute="trailing" secondItem="zzS-tU-L7M" secondAttribute="trailing" constant="16" id="tjA-Gl-upb"/>
+                                        <constraint firstItem="SyD-yF-pI5" firstAttribute="leading" secondItem="npX-8N-HPf" secondAttribute="leading" constant="67" id="uSY-Kr-0vQ"/>
+                                        <constraint firstItem="SyD-yF-pI5" firstAttribute="top" secondItem="dKW-OU-APA" secondAttribute="bottom" constant="7.5" id="xOj-n1-WNj"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="movieGenres" destination="dKW-OU-APA" id="XlT-r6-8WG"/>
+                                    <outlet property="moviePoster" destination="SyD-yF-pI5" id="S9r-1G-j3D"/>
                                     <outlet property="movieTitle" destination="zzS-tU-L7M" id="r9K-RD-6u3"/>
                                 </connections>
                             </tableViewCell>

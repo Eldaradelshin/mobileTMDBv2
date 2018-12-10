@@ -15,8 +15,9 @@ class TMDBRequestClient {
     init() {
     }
     
-    func fetchNewMovies(page: Int = 1, startReleaseDate: String, endReleaseDate: String, completion: @escaping (PagedResponse<Movie>) -> Void) {
+    func fetchNewMovies(page: Int, startReleaseDate: String, endReleaseDate: String, completion: @escaping (PagedResponse<Movie>) -> Void) {
         let req = Alamofire.request(baseURL.appendingPathComponent("discover/movie"), method: .get, parameters: [
+            "page"    : page,
             "api_key" : token,
             "language": "ru-RU",
             "include_adult": "true",
