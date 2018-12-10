@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32C41B187EF52683ED07D7E7 /* Pods_mobileTMDB_version_2_0_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9306EE078C72DC343D67C337 /* Pods_mobileTMDB_version_2_0_.framework */; };
+		622CFB7421BBD1A1005D2462 /* PopularMoviesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFB7321BBD1A1005D2462 /* PopularMoviesController.swift */; };
+		622CFB7621BBD201005D2462 /* PopularMoviesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFB7521BBD201005D2462 /* PopularMoviesCell.swift */; };
+		622CFB7921BBD3CD005D2462 /* genresRuDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFB7821BBD3CD005D2462 /* genresRuDict.swift */; };
+		622CFB7C21BBD7CB005D2462 /* PagedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFB7B21BBD7CB005D2462 /* PagedResponse.swift */; };
+		622CFB7E21BBDAC4005D2462 /* TMDBRequestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFB7D21BBDAC4005D2462 /* TMDBRequestClient.swift */; };
+		622CFB8021BBDC9D005D2462 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFB7F21BBDC9D005D2462 /* Movie.swift */; };
+		622CFB8321BBE238005D2462 /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFB8221BBE238005D2462 /* DateService.swift */; };
+		622CFB8521BBEE2B005D2462 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFB8421BBEE2B005D2462 /* LoadingCell.swift */; };
+		622CFB8721BE6F44005D2462 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622CFB8621BE6F44005D2462 /* MovieCell.swift */; };
 		62B8081E21BBC55D00F32FF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B8081D21BBC55D00F32FF6 /* AppDelegate.swift */; };
-		62B8082021BBC55D00F32FF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B8081F21BBC55D00F32FF6 /* ViewController.swift */; };
 		62B8082321BBC55D00F32FF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B8082121BBC55D00F32FF6 /* Main.storyboard */; };
 		62B8082621BBC55D00F32FF6 /* mobileTMDB_version_2_0_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62B8082421BBC55D00F32FF6 /* mobileTMDB_version_2_0_.xcdatamodeld */; };
 		62B8082821BBC55F00F32FF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B8082721BBC55F00F32FF6 /* Assets.xcassets */; };
@@ -16,14 +25,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		622CFB7321BBD1A1005D2462 /* PopularMoviesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesController.swift; sourceTree = "<group>"; };
+		622CFB7521BBD201005D2462 /* PopularMoviesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesCell.swift; sourceTree = "<group>"; };
+		622CFB7821BBD3CD005D2462 /* genresRuDict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genresRuDict.swift; sourceTree = "<group>"; };
+		622CFB7B21BBD7CB005D2462 /* PagedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedResponse.swift; sourceTree = "<group>"; };
+		622CFB7D21BBDAC4005D2462 /* TMDBRequestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBRequestClient.swift; sourceTree = "<group>"; };
+		622CFB7F21BBDC9D005D2462 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		622CFB8221BBE238005D2462 /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
+		622CFB8421BBEE2B005D2462 /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		622CFB8621BE6F44005D2462 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		62B8081A21BBC55D00F32FF6 /* mobileTMDB(version 2.0).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mobileTMDB(version 2.0).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B8081D21BBC55D00F32FF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		62B8081F21BBC55D00F32FF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		62B8082221BBC55D00F32FF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62B8082521BBC55D00F32FF6 /* mobileTMDB_version_2_0_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mobileTMDB_version_2_0_.xcdatamodel; sourceTree = "<group>"; };
 		62B8082721BBC55F00F32FF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62B8082A21BBC55F00F32FF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62B8082C21BBC55F00F32FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DFC1411B9DED858C6475922 /* Pods-mobileTMDB(version 2.0).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileTMDB(version 2.0).debug.xcconfig"; path = "Pods/Target Support Files/Pods-mobileTMDB(version 2.0)/Pods-mobileTMDB(version 2.0).debug.xcconfig"; sourceTree = "<group>"; };
+		9306EE078C72DC343D67C337 /* Pods_mobileTMDB_version_2_0_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobileTMDB_version_2_0_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F0F7CBED863F4B10B0B594 /* Pods-mobileTMDB(version 2.0).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileTMDB(version 2.0).release.xcconfig"; path = "Pods/Target Support Files/Pods-mobileTMDB(version 2.0)/Pods-mobileTMDB(version 2.0).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32C41B187EF52683ED07D7E7 /* Pods_mobileTMDB_version_2_0_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		384CAD43E12573FAE5CFCEF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DFC1411B9DED858C6475922 /* Pods-mobileTMDB(version 2.0).debug.xcconfig */,
+				A3F0F7CBED863F4B10B0B594 /* Pods-mobileTMDB(version 2.0).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		622CFB7721BBD36C005D2462 /* Genres */ = {
+			isa = PBXGroup;
+			children = (
+				622CFB7821BBD3CD005D2462 /* genresRuDict.swift */,
+			);
+			path = Genres;
+			sourceTree = "<group>";
+		};
+		622CFB7A21BBD79B005D2462 /* Response models */ = {
+			isa = PBXGroup;
+			children = (
+				622CFB7B21BBD7CB005D2462 /* PagedResponse.swift */,
+			);
+			path = "Response models";
+			sourceTree = "<group>";
+		};
+		622CFB8121BBE216005D2462 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				622CFB8221BBE238005D2462 /* DateService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		62B8081121BBC55D00F32FF6 = {
 			isa = PBXGroup;
 			children = (
 				62B8081C21BBC55D00F32FF6 /* mobileTMDB(version 2.0) */,
 				62B8081B21BBC55D00F32FF6 /* Products */,
+				384CAD43E12573FAE5CFCEF5 /* Pods */,
+				9E8EEDE82D568F4344174B78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +112,63 @@
 		62B8081C21BBC55D00F32FF6 /* mobileTMDB(version 2.0) */ = {
 			isa = PBXGroup;
 			children = (
+				622CFB8121BBE216005D2462 /* Services */,
+				62B8083521BBC62B00F32FF6 /* Base.Iproj */,
+				62B8083421BBC5D700F32FF6 /* ViewControllers */,
+				62B8083321BBC5C600F32FF6 /* Models */,
+				62B8083221BBC59200F32FF6 /* Networking */,
 				62B8081D21BBC55D00F32FF6 /* AppDelegate.swift */,
-				62B8081F21BBC55D00F32FF6 /* ViewController.swift */,
-				62B8082121BBC55D00F32FF6 /* Main.storyboard */,
 				62B8082721BBC55F00F32FF6 /* Assets.xcassets */,
-				62B8082921BBC55F00F32FF6 /* LaunchScreen.storyboard */,
 				62B8082C21BBC55F00F32FF6 /* Info.plist */,
-				62B8082421BBC55D00F32FF6 /* mobileTMDB_version_2_0_.xcdatamodeld */,
 			);
 			path = "mobileTMDB(version 2.0)";
+			sourceTree = "<group>";
+		};
+		62B8083221BBC59200F32FF6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				622CFB7A21BBD79B005D2462 /* Response models */,
+				622CFB7D21BBDAC4005D2462 /* TMDBRequestClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		62B8083321BBC5C600F32FF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				622CFB7721BBD36C005D2462 /* Genres */,
+				62B8082421BBC55D00F32FF6 /* mobileTMDB_version_2_0_.xcdatamodeld */,
+				622CFB7F21BBDC9D005D2462 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		62B8083421BBC5D700F32FF6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				622CFB7321BBD1A1005D2462 /* PopularMoviesController.swift */,
+				622CFB7521BBD201005D2462 /* PopularMoviesCell.swift */,
+				622CFB8421BBEE2B005D2462 /* LoadingCell.swift */,
+				622CFB8621BE6F44005D2462 /* MovieCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		62B8083521BBC62B00F32FF6 /* Base.Iproj */ = {
+			isa = PBXGroup;
+			children = (
+				62B8082921BBC55F00F32FF6 /* LaunchScreen.storyboard */,
+				62B8082121BBC55D00F32FF6 /* Main.storyboard */,
+			);
+			path = Base.Iproj;
+			sourceTree = "<group>";
+		};
+		9E8EEDE82D568F4344174B78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9306EE078C72DC343D67C337 /* Pods_mobileTMDB_version_2_0_.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62B8082F21BBC55F00F32FF6 /* Build configuration list for PBXNativeTarget "mobileTMDB(version 2.0)" */;
 			buildPhases = (
+				F8972CC3812B147252F7B7DF /* [CP] Check Pods Manifest.lock */,
 				62B8081621BBC55D00F32FF6 /* Sources */,
 				62B8081721BBC55D00F32FF6 /* Frameworks */,
 				62B8081821BBC55D00F32FF6 /* Resources */,
+				6AA45D95930719B3414B395C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +239,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6AA45D95930719B3414B395C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mobileTMDB(version 2.0)/Pods-mobileTMDB(version 2.0)-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mobileTMDB(version 2.0)/Pods-mobileTMDB(version 2.0)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8972CC3812B147252F7B7DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mobileTMDB(version 2.0)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		62B8081621BBC55D00F32FF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622CFB8321BBE238005D2462 /* DateService.swift in Sources */,
+				622CFB7921BBD3CD005D2462 /* genresRuDict.swift in Sources */,
+				622CFB7621BBD201005D2462 /* PopularMoviesCell.swift in Sources */,
+				622CFB8721BE6F44005D2462 /* MovieCell.swift in Sources */,
+				622CFB7421BBD1A1005D2462 /* PopularMoviesController.swift in Sources */,
+				622CFB8521BBEE2B005D2462 /* LoadingCell.swift in Sources */,
 				62B8082621BBC55D00F32FF6 /* mobileTMDB_version_2_0_.xcdatamodeld in Sources */,
-				62B8082021BBC55D00F32FF6 /* ViewController.swift in Sources */,
+				622CFB7E21BBDAC4005D2462 /* TMDBRequestClient.swift in Sources */,
+				622CFB7C21BBD7CB005D2462 /* PagedResponse.swift in Sources */,
+				622CFB8021BBDC9D005D2462 /* Movie.swift in Sources */,
 				62B8081E21BBC55D00F32FF6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +437,7 @@
 		};
 		62B8083021BBC55F00F32FF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DFC1411B9DED858C6475922 /* Pods-mobileTMDB(version 2.0).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +455,7 @@
 		};
 		62B8083121BBC55F00F32FF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3F0F7CBED863F4B10B0B594 /* Pods-mobileTMDB(version 2.0).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
